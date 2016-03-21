@@ -50,6 +50,8 @@ body {
   float: left;
   margin-left: 10px;
   margin-right: 10px;
+  
+  margin-top: 20px;
 }
 
 .push_1, .pull_1,
@@ -113,7 +115,7 @@ body {
 }
 
 .container_12 .grid_4 {
-  width: 300px;
+  width: 250px;
 }
 
 .container_12 .grid_5 {

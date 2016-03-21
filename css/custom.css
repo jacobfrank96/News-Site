@@ -1,20 +1,67 @@
+
+img{
+  width: 100%;
+
+  }
+
+  .box{
+    background-color: white;
+    padding: 10px 20px;
+    padding-top: 10px;
+    /*border:2px solid #f22;*/
+  }
+
+  a {
+    color: black;
+    text-decoration:  underline;
+  }
+
+  a:hover {
+    color: red;
+    text-decoration: none;
+  }
 body{
-  background-image: url(../img/metal.jpg) ;
+
+  background-image: url(../img/background.jpg);
   background-repeat: no-repeat;
   background-position: center 400px;
-  background-color: #999;
-
+  /*background-color: #d9d9de;*/
+  background-color: #ff95a4;
+  background-blend-mode:  color;
 
 
   }/*your custom CSS here*/
 
+  /*.box{
+
+   border:5px solid #f22;
+   padding: 5px 10px;
+
+
+  }*/
+  .header {
+    position: fixed;
+    width:100%;
+    top:0;
+    left:0;
+    padding: 10px 10px 0px 10px;
+    color: black;
+    background-color:#ff95a4;
+
+
+
+  }
+
   .heading{
     width:100%;
     height: 400px;
-    background-image: url(../img/heading.jpg);
-    background-repeat: no-repeat;
-    background-position: center ;
-    background-color: #003366;
+    padding-top: 200px;
+    background-image: url(../img/heading4.jpg);
+    background-repeat:  no-repeat;;
+    background-position: center 50px;
+    background-color: #d9d9de;
+
+
 
 
 
@@ -22,10 +69,10 @@ body{
   }
 
   .heading h1{
-    color: #fff;
-    font-size: 50px;
+    color: black;
+    font-size: 42px;
     text-align: center;
     width:100%;
-    padding-top: 194px;
+    padding-top: 200px;
     /*border:5px solid #f22;*/
   }
